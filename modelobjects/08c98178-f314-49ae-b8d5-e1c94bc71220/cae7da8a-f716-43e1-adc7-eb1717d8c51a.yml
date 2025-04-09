@@ -1,6 +1,7 @@
 id: 'cae7da8a-f716-43e1-adc7-eb1717d8c51a'
-name: 'customer_order_products1'
+name: 'Ent_orders'
 description: 'Generated Model Object from customer_order_products1'
+isDeactivated: false
 modelObjectTypeId: '08c98178-f314-49ae-b8d5-e1c94bc71220'
 terms:
   - id: 'e5cfdf23-27cf-453a-85d8-b11b332840e4'
@@ -95,7 +96,7 @@ terms:
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: '63322288-1eaf-48ef-92dd-65470750e452'
-    name: 'customer_order_products1_ID'
+    name: 'Ent_orders_ID'
     description: 'Default term with the entity identity'
     defaultTermId: '814e894a-6f79-45f1-aaaa-90ef30e7c062'
     hiddenInSource: false

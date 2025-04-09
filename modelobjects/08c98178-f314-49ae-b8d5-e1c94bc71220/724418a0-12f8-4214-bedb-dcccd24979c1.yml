@@ -1,6 +1,7 @@
 id: '724418a0-12f8-4214-bedb-dcccd24979c1'
-name: 'products'
+name: 'Ent_products'
 description: 'Generated Model Object from products'
+isDeactivated: false
 modelObjectTypeId: '08c98178-f314-49ae-b8d5-e1c94bc71220'
 terms:
   - id: '3bb24c6b-572a-4610-999a-852211a94fbe'
@@ -95,7 +96,7 @@ terms:
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: 'afb0637a-0935-43e6-8c54-fb691ae68c22'
-    name: 'products_ID'
+    name: 'Ent_products_ID'
     description: 'Default term with the entity identity'
     defaultTermId: '814e894a-6f79-45f1-aaaa-90ef30e7c062'
     hiddenInSource: false

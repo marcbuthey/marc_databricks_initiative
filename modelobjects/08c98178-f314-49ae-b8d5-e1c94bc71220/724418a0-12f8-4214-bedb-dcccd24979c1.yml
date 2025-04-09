@@ -164,11 +164,12 @@ terms:
     isBusinessKey: true
     isForeignKey: false
     isIdentity: false
-    isNullable: true
+    isNullable: false
     dataType:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 10
       scale: 2
+    propertyValues: []
   - id: '3acb008f-86f8-4f37-bc46-8f5362d749ae'
     name: 'product_image'
     hiddenInSource: false

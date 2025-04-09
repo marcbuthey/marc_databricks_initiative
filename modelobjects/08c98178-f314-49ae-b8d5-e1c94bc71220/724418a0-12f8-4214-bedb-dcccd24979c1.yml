@@ -177,9 +177,10 @@ terms:
     isBusinessKey: true
     isForeignKey: false
     isIdentity: false
-    isNullable: true
+    isNullable: false
     dataType:
       platformDataTypeId: '1608ad85-f315-4b0f-9321-b906e8e76534'
+    propertyValues: []
 dataflows:
   - id: 'fedad42a-9b2a-4597-80b3-1cfb6f7f0118'
     name: 'Dataflow1'

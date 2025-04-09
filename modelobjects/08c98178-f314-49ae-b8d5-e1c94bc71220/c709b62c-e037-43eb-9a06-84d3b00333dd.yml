@@ -1,6 +1,7 @@
 id: 'c709b62c-e037-43eb-9a06-84d3b00333dd'
-name: 'stores'
+name: 'Ent_stores'
 description: 'Generated Model Object from stores'
+isDeactivated: false
 modelObjectTypeId: '08c98178-f314-49ae-b8d5-e1c94bc71220'
 terms:
   - id: 'b0970198-9328-49fa-ae37-b3ceeb445a9d'
@@ -95,7 +96,7 @@ terms:
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: '77c04736-9d47-4e68-b43e-3dd689d26a1a'
-    name: 'stores_ID'
+    name: 'Ent_stores_ID'
     description: 'Default term with the entity identity'
     defaultTermId: '814e894a-6f79-45f1-aaaa-90ef30e7c062'
     hiddenInSource: false

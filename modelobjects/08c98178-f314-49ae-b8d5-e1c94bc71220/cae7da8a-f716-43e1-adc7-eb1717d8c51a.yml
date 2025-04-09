@@ -163,11 +163,12 @@ terms:
     isBusinessKey: true
     isForeignKey: false
     isIdentity: false
-    isNullable: true
+    isNullable: false
     dataType:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 38
       scale: 2
+    propertyValues: []
 dataflows:
   - id: 'bf339c8c-3209-425f-a4a3-fc8befe1db30'
     name: 'Dataflow1'

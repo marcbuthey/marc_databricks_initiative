@@ -152,10 +152,11 @@ terms:
     isBusinessKey: true
     isForeignKey: false
     isIdentity: false
-    isNullable: true
+    isNullable: false
     dataType:
       length: 100
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+    propertyValues: []
   - id: 'b28dbaa4-39dc-4ac8-a2d3-104e7c9f4dfa'
     name: 'latitude'
     hiddenInSource: false

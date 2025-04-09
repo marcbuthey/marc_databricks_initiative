@@ -177,11 +177,12 @@ terms:
     isBusinessKey: true
     isForeignKey: false
     isIdentity: false
-    isNullable: true
+    isNullable: false
     dataType:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 9
       scale: 6
+    propertyValues: []
   - id: '925214c9-0f51-49c6-ad86-e81d6f6d6de8'
     name: 'physical_address'
     hiddenInSource: false

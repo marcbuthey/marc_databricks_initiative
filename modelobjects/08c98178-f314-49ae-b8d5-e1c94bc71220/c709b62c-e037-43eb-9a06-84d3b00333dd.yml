@@ -203,19 +203,6 @@ terms:
       platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
       precision: 10
       scale: 0
-  - id: '2bfd0d7e-7e76-4d01-a21e-e99f17fe26e5'
-    name: 'latitude1'
-    hiddenInSource: false
-    hiddenInTarget: false
-    historizationTypeId: 'cb5a80ce-e0a7-40ac-b4b8-cfa54f902e6c'
-    isBusinessKey: false
-    isForeignKey: false
-    isIdentity: false
-    isNullable: true
-    dataType:
-      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
-      precision: 9
-      scale: 6
   - id: '8c694f73-85be-4008-8d5d-0ad4bc77575b'
     name: 'longitude1'
     hiddenInSource: false
@@ -262,8 +249,6 @@ dataflows:
             termId: '925214c9-0f51-49c6-ad86-e81d6f6d6de8'
           - expression: 'e6c692cd-cd35-482b-8a50-cea4dae339c5.5be937f7-c208-47d5-a290-d1fe29fcdb78'
             termId: '291e3402-6bd3-4989-ab46-ce8bf30dfe7d'
-          - expression: 'e6c692cd-cd35-482b-8a50-cea4dae339c5.d0540495-aeaa-40d3-9079-b6b75d7f1a35'
-            termId: '2bfd0d7e-7e76-4d01-a21e-e99f17fe26e5'
           - expression: 'e6c692cd-cd35-482b-8a50-cea4dae339c5.9de18fa2-f45d-4581-b720-89305725da44'
             termId: '8c694f73-85be-4008-8d5d-0ad4bc77575b'
 relationships: []

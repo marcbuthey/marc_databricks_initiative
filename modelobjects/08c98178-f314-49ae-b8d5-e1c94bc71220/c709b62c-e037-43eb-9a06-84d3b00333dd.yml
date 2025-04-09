@@ -203,18 +203,6 @@ terms:
       platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
       precision: 10
       scale: 0
-  - id: '733cc6e5-c5c5-44c2-a9a5-d93145ce285a'
-    name: 'web_address1'
-    hiddenInSource: false
-    hiddenInTarget: false
-    historizationTypeId: 'cb5a80ce-e0a7-40ac-b4b8-cfa54f902e6c'
-    isBusinessKey: false
-    isForeignKey: false
-    isIdentity: false
-    isNullable: true
-    dataType:
-      length: 100
-      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: '51a25b81-5965-40a9-b382-754ba511acab'
     name: 'physical_address1'
     hiddenInSource: false
@@ -286,8 +274,6 @@ dataflows:
             termId: '925214c9-0f51-49c6-ad86-e81d6f6d6de8'
           - expression: 'e6c692cd-cd35-482b-8a50-cea4dae339c5.5be937f7-c208-47d5-a290-d1fe29fcdb78'
             termId: '291e3402-6bd3-4989-ab46-ce8bf30dfe7d'
-          - expression: 'e6c692cd-cd35-482b-8a50-cea4dae339c5.2fa3efcb-6691-4d0b-b31d-d5a7d868c3ae'
-            termId: '733cc6e5-c5c5-44c2-a9a5-d93145ce285a'
           - expression: 'e6c692cd-cd35-482b-8a50-cea4dae339c5.69e3fac9-134f-4de8-9007-7b4d4ceb430b'
             termId: '51a25b81-5965-40a9-b382-754ba511acab'
           - expression: 'e6c692cd-cd35-482b-8a50-cea4dae339c5.d0540495-aeaa-40d3-9079-b6b75d7f1a35'

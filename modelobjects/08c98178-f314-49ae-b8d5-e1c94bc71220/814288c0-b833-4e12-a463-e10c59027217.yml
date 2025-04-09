@@ -1,6 +1,7 @@
 id: '814288c0-b833-4e12-a463-e10c59027217'
-name: 'customers'
+name: 'Ent_customers'
 description: 'Generated Model Object from customers'
+isDeactivated: false
 modelObjectTypeId: '08c98178-f314-49ae-b8d5-e1c94bc71220'
 terms:
   - id: 'a368be78-1383-4569-89aa-c99b45661b0c'
@@ -95,7 +96,7 @@ terms:
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: 'e2c9aa79-76b3-4324-af27-bae36c43e7c7'
-    name: 'customers_ID'
+    name: 'Ent_customers_ID'
     description: 'Default term with the entity identity'
     defaultTermId: '814e894a-6f79-45f1-aaaa-90ef30e7c062'
     hiddenInSource: false

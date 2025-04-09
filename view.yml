@@ -43,7 +43,22 @@ views:
     type: 'data-model'
     modelObjects:
       - id: '814288c0-b833-4e12-a463-e10c59027217'
+        collapsed: true
+        x: 214.11363220214844
+        'y': 220
       - id: 'cae7da8a-f716-43e1-adc7-eb1717d8c51a'
+        collapsed: true
+        x: 188
+        'y': 3
       - id: '724418a0-12f8-4214-bedb-dcccd24979c1'
+        collapsed: true
+        x: 669.2272644042969
+        'y': 214
       - id: 'c709b62c-e037-43eb-9a06-84d3b00333dd'
+        collapsed: true
+        x: 1007.3408966064453
+        'y': 20
       - id: '044b0ff1-1459-4cf0-bf83-5017c826dee0'
+        collapsed: true
+        x: 652
+        'y': 72

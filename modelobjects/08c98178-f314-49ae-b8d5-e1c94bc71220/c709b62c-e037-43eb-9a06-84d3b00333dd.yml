@@ -164,11 +164,12 @@ terms:
     isBusinessKey: true
     isForeignKey: false
     isIdentity: false
-    isNullable: true
+    isNullable: false
     dataType:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 9
       scale: 6
+    propertyValues: []
   - id: '045af1e9-83f5-4a0a-8b31-d54b5eb3ceb5'
     name: 'longitude'
     hiddenInSource: false

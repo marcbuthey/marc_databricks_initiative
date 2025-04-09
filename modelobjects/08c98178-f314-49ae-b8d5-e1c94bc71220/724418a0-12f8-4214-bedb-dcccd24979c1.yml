@@ -179,18 +179,6 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '1608ad85-f315-4b0f-9321-b906e8e76534'
-  - id: '6b429cfa-6829-46f2-92a6-d466dac257cb'
-    name: 'product_name1'
-    hiddenInSource: false
-    hiddenInTarget: false
-    historizationTypeId: 'cb5a80ce-e0a7-40ac-b4b8-cfa54f902e6c'
-    isBusinessKey: false
-    isForeignKey: false
-    isIdentity: false
-    isNullable: false
-    dataType:
-      length: 255
-      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: 'e2fe1209-f13f-4708-a289-f38ff96da558'
     name: 'unit_price1'
     hiddenInSource: false
@@ -244,8 +232,6 @@ dataflows:
             termId: 'a0b6c1ad-dcc2-4da5-befe-8f1e3b21ff92'
           - expression: '7180fc85-96b6-4e42-9ba7-0b99af8cfe7f.eaf1790a-22b0-443f-91b7-52b776751fc4'
             termId: '3acb008f-86f8-4f37-bc46-8f5362d749ae'
-          - expression: '7180fc85-96b6-4e42-9ba7-0b99af8cfe7f.cc335a74-d674-43ad-83a3-ce3429dffbf9'
-            termId: '6b429cfa-6829-46f2-92a6-d466dac257cb'
           - expression: '7180fc85-96b6-4e42-9ba7-0b99af8cfe7f.673f8eea-b092-41a1-b029-cfd2a0eda79c'
             termId: 'e2fe1209-f13f-4708-a289-f38ff96da558'
           - expression: '7180fc85-96b6-4e42-9ba7-0b99af8cfe7f.eaf1790a-22b0-443f-91b7-52b776751fc4'

@@ -1,0 +1,100 @@
+{
+	"environments": [
+		{
+			"name": "DEV",
+			"projects": [
+				{
+					"name": "Marc_databricks_initiative",
+					"variables": [
+						{
+							"name": "marc_databricks_initiative#cleanse#database_name",
+							"value": "cleanse",
+							"secretname": ""
+						},
+						{
+							"name": "marc_databricks_initiative#cleanse#database_directory",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "marc_databricks_initiative#cleanse#schema_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "marc_databricks_initiative#core#database_name",
+							"value": "core",
+							"secretname": ""
+						},
+						{
+							"name": "marc_databricks_initiative#core#database_directory",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "marc_databricks_initiative#core#schema_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "marc_databricks_initiative#mart#database_name",
+							"value": "mart",
+							"secretname": ""
+						},
+						{
+							"name": "marc_databricks_initiative#mart#database_directory",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "marc_databricks_initiative#mart#schema_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "marc_databricks_initiative#stage#database_name",
+							"value": "stage",
+							"secretname": ""
+						},
+						{
+							"name": "marc_databricks_initiative#stage#database_directory",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "marc_databricks_initiative#stage#schema_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "marc_databricks_initiative#localsqlserver#database_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "marc_databricks_initiative#localsqlserver#schema_name",
+							"value": "",
+							"secretname": ""
+						}
+					]
+				},
+				{
+					"name": "notebook_orchestration",
+					"variables": [
+						{
+							"name": "notebook_orchestration#notebook_orchestration#run_notebook_timeout",
+							"value": "3600",
+							"secretname": ""
+						},
+						{
+							"name": "notebook_orchestration#notebook_orchestration#execution_dependencies_file_path",
+							"value": "",
+							"secretname": ""
+						}
+					]
+				}
+			]
+		}
+	],
+	"secretprovider": {}
+}

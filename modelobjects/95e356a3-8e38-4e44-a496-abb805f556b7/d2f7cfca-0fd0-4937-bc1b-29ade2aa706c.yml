@@ -1,0 +1,42 @@
+id: 'd2f7cfca-0fd0-4937-bc1b-29ade2aa706c'
+name: 'customers_tgt'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: 'e768aa1c-7142-4e0d-883c-b88a66463349'
+    name: 'customer_id'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+      precision: 10
+      scale: 0
+  - id: 'b0b873af-6f40-4227-852d-563b66f7fbe8'
+    name: 'email_address'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 255
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '3fef4a9b-f6b1-4257-a3f2-955aaf99ce66'
+    name: 'full_name'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 255
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+tags:
+  - '$discovery#id#c1814ad7-8e60-4bc3-9cd2-4946de5ceab3'
+  - '$initial#name#customers_tgt'
+  - '$sourcesystem#id#9006fa0e-9742-4e39-9075-19c3ea29d149'

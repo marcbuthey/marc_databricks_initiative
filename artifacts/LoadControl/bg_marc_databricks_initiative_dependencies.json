@@ -1,0 +1,272 @@
+{
+  "task_dependencies" : [
+    {
+      "task_name" : "CLS_EN_Ent_customers_Action",
+      "dependent_on_task_name" : "CLS_EN_Ent_customers_Loader"
+    },
+    {
+      "task_name" : "CLS_EN_Ent_customers_Loader",
+      "dependent_on_task_name" : "STG_ST_customers_Loader"
+    },
+    {
+      "task_name" : "COR_EN_Ent_customers_Loader",
+      "dependent_on_task_name" : "CLS_EN_Ent_customers_Action"
+    },
+    {
+      "task_name" : "COR_EN_Ent_customers_Loader",
+      "dependent_on_task_name" : "CLS_EN_Ent_customers_Loader"
+    },
+    {
+      "task_name" : "DM_MD_Ent_customers_Loader",
+      "dependent_on_task_name" : "COR_EN_Ent_customers_Loader"
+    },
+    {
+      "task_name" : "CLS_EN_Ent_orders_Action",
+      "dependent_on_task_name" : "CLS_EN_Ent_orders_Loader"
+    },
+    {
+      "task_name" : "CLS_EN_Ent_orders_Loader",
+      "dependent_on_task_name" : "STG_ST_customer_order_products1_Loader"
+    },
+    {
+      "task_name" : "COR_EN_Ent_orders_Loader",
+      "dependent_on_task_name" : "CLS_EN_Ent_orders_Action"
+    },
+    {
+      "task_name" : "COR_EN_Ent_orders_Loader",
+      "dependent_on_task_name" : "CLS_EN_Ent_orders_Loader"
+    },
+    {
+      "task_name" : "DM_MD_Ent_orders_Loader",
+      "dependent_on_task_name" : "COR_EN_Ent_orders_Loader"
+    },
+    {
+      "task_name" : "CLS_EN_Ent_products_Action",
+      "dependent_on_task_name" : "CLS_EN_Ent_products_Loader"
+    },
+    {
+      "task_name" : "CLS_EN_Ent_products_Loader",
+      "dependent_on_task_name" : "STG_ST_products_Loader"
+    },
+    {
+      "task_name" : "COR_EN_Ent_products_Loader",
+      "dependent_on_task_name" : "CLS_EN_Ent_products_Action"
+    },
+    {
+      "task_name" : "COR_EN_Ent_products_Loader",
+      "dependent_on_task_name" : "CLS_EN_Ent_products_Loader"
+    },
+    {
+      "task_name" : "DM_MD_Ent_products_Loader",
+      "dependent_on_task_name" : "COR_EN_Ent_products_Loader"
+    },
+    {
+      "task_name" : "CLS_EN_Ent_stores_Action",
+      "dependent_on_task_name" : "CLS_EN_Ent_stores_Loader"
+    },
+    {
+      "task_name" : "CLS_EN_Ent_stores_Loader",
+      "dependent_on_task_name" : "STG_ST_stores_Loader"
+    },
+    {
+      "task_name" : "COR_EN_Ent_stores_Loader",
+      "dependent_on_task_name" : "CLS_EN_Ent_stores_Action"
+    },
+    {
+      "task_name" : "COR_EN_Ent_stores_Loader",
+      "dependent_on_task_name" : "CLS_EN_Ent_stores_Loader"
+    },
+    {
+      "task_name" : "DM_MD_Ent_stores_Loader",
+      "dependent_on_task_name" : "COR_EN_Ent_stores_Loader"
+    },
+    {
+      "task_name" : "CLS_F_order_items_Action",
+      "dependent_on_task_name" : "CLS_F_order_items_Loader"
+    },
+    {
+      "task_name" : "CLS_F_order_items_Loader",
+      "dependent_on_task_name" : "STG_ST_customers_Loader"
+    },
+    {
+      "task_name" : "CLS_F_order_items_Loader",
+      "dependent_on_task_name" : "CLS_EN_Ent_customers_Action"
+    },
+    {
+      "task_name" : "CLS_F_order_items_Loader",
+      "dependent_on_task_name" : "CLS_EN_Ent_customers_Loader"
+    },
+    {
+      "task_name" : "CLS_F_order_items_Loader",
+      "dependent_on_task_name" : "CLS_EN_Ent_orders_Action"
+    },
+    {
+      "task_name" : "CLS_F_order_items_Loader",
+      "dependent_on_task_name" : "CLS_EN_Ent_orders_Loader"
+    },
+    {
+      "task_name" : "CLS_F_order_items_Loader",
+      "dependent_on_task_name" : "CLS_EN_Ent_products_Action"
+    },
+    {
+      "task_name" : "CLS_F_order_items_Loader",
+      "dependent_on_task_name" : "CLS_EN_Ent_products_Loader"
+    },
+    {
+      "task_name" : "CLS_F_order_items_Loader",
+      "dependent_on_task_name" : "CLS_EN_Ent_stores_Action"
+    },
+    {
+      "task_name" : "CLS_F_order_items_Loader",
+      "dependent_on_task_name" : "CLS_EN_Ent_stores_Loader"
+    },
+    {
+      "task_name" : "CLS_F_order_items_Loader",
+      "dependent_on_task_name" : "STG_ST_order_items_Loader"
+    },
+    {
+      "task_name" : "CLS_F_order_items_Loader",
+      "dependent_on_task_name" : "STG_ST_stores_Loader"
+    },
+    {
+      "task_name" : "COR_F_order_items_Loader",
+      "dependent_on_task_name" : "COR_EN_Ent_customers_Loader"
+    },
+    {
+      "task_name" : "COR_F_order_items_Loader",
+      "dependent_on_task_name" : "COR_EN_Ent_orders_Loader"
+    },
+    {
+      "task_name" : "COR_F_order_items_Loader",
+      "dependent_on_task_name" : "COR_EN_Ent_products_Loader"
+    },
+    {
+      "task_name" : "COR_F_order_items_Loader",
+      "dependent_on_task_name" : "COR_EN_Ent_stores_Loader"
+    },
+    {
+      "task_name" : "COR_F_order_items_Loader",
+      "dependent_on_task_name" : "CLS_F_order_items_Action"
+    },
+    {
+      "task_name" : "COR_F_order_items_Loader",
+      "dependent_on_task_name" : "CLS_F_order_items_Loader"
+    },
+    {
+      "task_name" : "DM_MF_order_items_TruncateInsertLoader",
+      "dependent_on_task_name" : "DM_MD_Ent_customers_Loader"
+    },
+    {
+      "task_name" : "DM_MF_order_items_TruncateInsertLoader",
+      "dependent_on_task_name" : "DM_MD_Ent_orders_Loader"
+    },
+    {
+      "task_name" : "DM_MF_order_items_TruncateInsertLoader",
+      "dependent_on_task_name" : "DM_MD_Ent_products_Loader"
+    },
+    {
+      "task_name" : "DM_MF_order_items_TruncateInsertLoader",
+      "dependent_on_task_name" : "DM_MD_Ent_stores_Loader"
+    },
+    {
+      "task_name" : "DM_MF_order_items_TruncateInsertLoader",
+      "dependent_on_task_name" : "COR_F_order_items_Loader"
+    },
+    {
+      "task_name" : "STG_ST_customer_order_products_Loader",
+      "dependent_on_task_name" : "begin"
+    },
+    {
+      "task_name" : "STG_ST_customer_order_products1_Loader",
+      "dependent_on_task_name" : "begin"
+    },
+    {
+      "task_name" : "STG_ST_customers_Loader",
+      "dependent_on_task_name" : "begin"
+    },
+    {
+      "task_name" : "STG_ST_customers_src_Loader",
+      "dependent_on_task_name" : "begin"
+    },
+    {
+      "task_name" : "STG_ST_customers_tgt_Loader",
+      "dependent_on_task_name" : "begin"
+    },
+    {
+      "task_name" : "STG_ST_inventory_Loader",
+      "dependent_on_task_name" : "begin"
+    },
+    {
+      "task_name" : "STG_ST_order_items_Loader",
+      "dependent_on_task_name" : "begin"
+    },
+    {
+      "task_name" : "STG_ST_orders_Loader",
+      "dependent_on_task_name" : "begin"
+    },
+    {
+      "task_name" : "STG_ST_product_orders_Loader",
+      "dependent_on_task_name" : "begin"
+    },
+    {
+      "task_name" : "STG_ST_product_reviews_Loader",
+      "dependent_on_task_name" : "begin"
+    },
+    {
+      "task_name" : "STG_ST_products_Loader",
+      "dependent_on_task_name" : "begin"
+    },
+    {
+      "task_name" : "STG_ST_shipments_Loader",
+      "dependent_on_task_name" : "begin"
+    },
+    {
+      "task_name" : "STG_ST_store_orders_Loader",
+      "dependent_on_task_name" : "begin"
+    },
+    {
+      "task_name" : "STG_ST_stores_Loader",
+      "dependent_on_task_name" : "begin"
+    },
+    {
+      "task_name" : "end",
+      "dependent_on_task_name" : "STG_ST_customer_order_products_Loader"
+    },
+    {
+      "task_name" : "end",
+      "dependent_on_task_name" : "STG_ST_customers_src_Loader"
+    },
+    {
+      "task_name" : "end",
+      "dependent_on_task_name" : "STG_ST_customers_tgt_Loader"
+    },
+    {
+      "task_name" : "end",
+      "dependent_on_task_name" : "STG_ST_inventory_Loader"
+    },
+    {
+      "task_name" : "end",
+      "dependent_on_task_name" : "DM_MF_order_items_TruncateInsertLoader"
+    },
+    {
+      "task_name" : "end",
+      "dependent_on_task_name" : "STG_ST_orders_Loader"
+    },
+    {
+      "task_name" : "end",
+      "dependent_on_task_name" : "STG_ST_product_orders_Loader"
+    },
+    {
+      "task_name" : "end",
+      "dependent_on_task_name" : "STG_ST_product_reviews_Loader"
+    },
+    {
+      "task_name" : "end",
+      "dependent_on_task_name" : "STG_ST_shipments_Loader"
+    },
+    {
+      "task_name" : "end",
+      "dependent_on_task_name" : "STG_ST_store_orders_Loader"
+    }
+  ]
+}

@@ -4,10 +4,66 @@ views:
     description: 'Default view for data pipe.'
     default: true
     type: 'data-pipe'
-    modelObjects: []
+    modelObjects:
+      - id: 'fb3cef09-5969-424f-a808-faf8e403e2ca'
+      - id: '3d90cbdc-8304-492e-bffa-1b922c0df71e'
+      - id: 'e302ddb4-ff01-4e8a-ad01-9f56983ae0ff'
+      - id: 'd2f7cfca-0fd0-4937-bc1b-29ade2aa706c'
+      - id: 'e0ae366b-ba4b-4297-83bd-85bbabc361fc'
+      - id: '4a839fee-149f-4610-bf4f-6bf46307743d'
+      - id: 'aa07c61d-ebdf-4fe7-bce6-9a0905ce5ab0'
+      - id: '6f8a1a67-db44-4299-b1ba-d417c2a51604'
+      - id: 'ca6bc001-8e43-4a39-9a63-12bcceb1da49'
+      - id: '253d7f42-240b-4de5-abd1-e230936167e5'
+      - id: '4154a2e7-5a9f-4123-8159-073c115fdc2d'
+      - id: 'ad0cc1d2-c5e0-4be5-80c0-742c80926c6b'
+      - id: '33da197b-334a-43c6-9779-ba2266355b6e'
+      - id: 'ea9f9bda-e6fa-43ec-a8f7-50b0380c94ec'
+      - id: 'ce306899-ced6-4c89-af23-ee01edf47d02'
+      - id: '99832962-fd3f-4b78-bbd8-fe7815ebcfa1'
+      - id: 'aacf2d99-af79-4df4-828b-17ee7ec6f968'
+      - id: '9ae8d8ea-a586-47c0-a41c-11c995dec47a'
+      - id: '64a68b73-0841-4d96-8c1b-d00de5c44388'
+      - id: '2da0b5a8-b12b-4f2d-8c9c-47d835eb7e59'
+      - id: '75d45713-051a-4875-aff2-f2a6c91ea679'
+      - id: '6d19762a-654b-499d-a142-0ef811d293a3'
+      - id: '5df9364f-5c2a-4842-87bc-435620ed290e'
+      - id: '8d81a922-10fc-4dd2-8d5a-e1fca3d937dd'
+      - id: '9dd1006f-ae4a-4525-878b-b7df9b05d088'
+      - id: 'b5fb4e4c-01ee-491c-9e92-dce06e6518e8'
+      - id: '814288c0-b833-4e12-a463-e10c59027217'
+      - id: 'cae7da8a-f716-43e1-adc7-eb1717d8c51a'
+      - id: '724418a0-12f8-4214-bedb-dcccd24979c1'
+      - id: 'c709b62c-e037-43eb-9a06-84d3b00333dd'
+      - id: '044b0ff1-1459-4cf0-bf83-5017c826dee0'
+      - id: '57ff397c-caee-4a78-8ba3-d20269156fe3'
+      - id: 'e570997e-b1bb-4f46-9444-518f3547e9e1'
+      - id: 'aae21b36-783f-4b0d-8763-da6b7eec7d64'
+      - id: 'beaa5f19-792b-483e-8f44-7303e22d71ac'
+      - id: '40a2e135-00d6-4882-817b-d6a813df52ae'
   - id: '923660f7-19e9-47c8-a711-d51a469baf58'
     name: 'Datamodel View 1'
     description: 'Default view for data model.'
     default: true
     type: 'data-model'
-    modelObjects: []
+    modelObjects:
+      - id: '814288c0-b833-4e12-a463-e10c59027217'
+        collapsed: true
+        x: 214.11363220214844
+        'y': 220
+      - id: 'cae7da8a-f716-43e1-adc7-eb1717d8c51a'
+        collapsed: true
+        x: 188
+        'y': 3
+      - id: '724418a0-12f8-4214-bedb-dcccd24979c1'
+        collapsed: true
+        x: 669.2272644042969
+        'y': 214
+      - id: 'c709b62c-e037-43eb-9a06-84d3b00333dd'
+        collapsed: true
+        x: 1007.3408966064453
+        'y': 20
+      - id: '044b0ff1-1459-4cf0-bf83-5017c826dee0'
+        collapsed: true
+        x: 652
+        'y': 72

@@ -5,3 +5,9 @@ version: 'v1.5'
 configuration:
   id: 'biGENIUS.Implementation.Generator.DimensionalAndMart.Spark.Databricks'
   version: '1.8.0'
+sourceSystems:
+  - id: '9006fa0e-9742-4e39-9075-19c3ea29d149'
+    name: 'LocalSQLServer'
+    description: ''
+    activeDiscovery: 'c1814ad7-8e60-4bc3-9cd2-4946de5ceab3'
+    sourceSystemTypeId: '301305db-47c8-4d20-b2b2-5dbefbaf251d'

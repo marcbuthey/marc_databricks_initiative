@@ -122,7 +122,7 @@ terms:
     dataType:
       platformDataTypeId: '3ea7a252-6878-4db5-9994-72fd3dae2075'
   - id: '7f302e14-e771-4805-a2a9-fce24014b7da'
-    name: 'FK_Ent_orders_order_id'
+    name: 'FK_Dim_orders_Ent_orders_order_id'
     hiddenInSource: true
     hiddenInTarget: false
     isBusinessKey: false
@@ -135,7 +135,7 @@ terms:
       precision: 10
       scale: 0
   - id: '6a55800a-d41a-4aa7-810c-32672daf3a94'
-    name: 'Ent_orders_Ent_orders_ID'
+    name: 'Dim_orders_Ent_orders_ID'
     description: 'Default term with the identity of the referenced mart dimension'
     defaultTermId: '618f7171-3c96-4093-9f01-05b68d3ee3f1'
     hiddenInSource: false

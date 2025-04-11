@@ -1,5 +1,5 @@
 id: 'e570997e-b1bb-4f46-9444-518f3547e9e1'
-name: 'Dim_orders'
+name: 'DIM_orders'
 description: 'Generated Model Object from Ent_orders'
 isDeactivated: false
 modelObjectTypeId: '293389a4-3c32-4c71-9514-f20135c9bc08'
@@ -70,7 +70,7 @@ terms:
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: '580505d9-c5da-45df-a380-c422cd30fa02'
-    name: 'Dim_orders_ID'
+    name: 'DIM_orders_ID'
     description: 'Default term with mart dimension identity'
     defaultTermId: '3d0d1df1-e8a7-45bb-abf4-63b4ecdbc2ea'
     hiddenInSource: false

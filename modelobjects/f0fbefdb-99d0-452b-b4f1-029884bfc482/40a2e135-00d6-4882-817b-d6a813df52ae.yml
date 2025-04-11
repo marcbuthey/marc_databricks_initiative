@@ -177,7 +177,7 @@ terms:
     dataType:
       platformDataTypeId: '3ea7a252-6878-4db5-9994-72fd3dae2075'
   - id: 'fb47589d-ce34-40f0-b4b0-0ac1109caca6'
-    name: 'FK_Dim_stores_Ent_stores_store_id'
+    name: 'FK_DIM_stores_Ent_stores_store_id'
     hiddenInSource: true
     hiddenInTarget: false
     isBusinessKey: false
@@ -190,7 +190,7 @@ terms:
       precision: 10
       scale: 0
   - id: '64aceb1e-ff6d-4075-bfc4-adf2c53a363d'
-    name: 'Dim_stores_Ent_stores_ID'
+    name: 'DIM_stores_Ent_stores_ID'
     description: 'Default term with the identity of the referenced mart dimension'
     defaultTermId: '618f7171-3c96-4093-9f01-05b68d3ee3f1'
     hiddenInSource: false

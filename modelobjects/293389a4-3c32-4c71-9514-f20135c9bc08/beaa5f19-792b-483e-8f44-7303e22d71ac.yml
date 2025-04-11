@@ -1,6 +1,7 @@
 id: 'beaa5f19-792b-483e-8f44-7303e22d71ac'
-name: 'Ent_stores'
+name: 'Dim_stores'
 description: 'Generated Model Object from Ent_stores'
+isDeactivated: false
 modelObjectTypeId: '293389a4-3c32-4c71-9514-f20135c9bc08'
 terms:
   - id: '9fa62903-2619-43ed-b04d-dc5c53905622'
@@ -69,7 +70,7 @@ terms:
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: 'dcf29132-9093-4ff2-b200-25bb211e19e6'
-    name: 'Ent_stores_ID'
+    name: 'Dim_stores_ID'
     description: 'Default term with mart dimension identity'
     defaultTermId: '3d0d1df1-e8a7-45bb-abf4-63b4ecdbc2ea'
     hiddenInSource: false

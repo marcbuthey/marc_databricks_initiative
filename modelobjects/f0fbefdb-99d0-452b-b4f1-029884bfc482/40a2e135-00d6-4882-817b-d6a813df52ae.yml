@@ -95,7 +95,7 @@ terms:
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: 'a7abf46f-5d71-4d10-a857-9cc58d769797'
-    name: 'FK_Ent_customers_customer_id'
+    name: 'FK_DIm_customers_Ent_customers_customer_id'
     hiddenInSource: true
     hiddenInTarget: false
     isBusinessKey: false
@@ -108,7 +108,7 @@ terms:
       precision: 10
       scale: 0
   - id: '67ebdd00-e36f-4cff-a74f-4502ee5744c9'
-    name: 'Ent_customers_Ent_customers_ID'
+    name: 'DIm_customers_Ent_customers_ID'
     description: 'Default term with the identity of the referenced mart dimension'
     defaultTermId: '618f7171-3c96-4093-9f01-05b68d3ee3f1'
     hiddenInSource: false

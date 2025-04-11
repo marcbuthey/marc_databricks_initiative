@@ -1,6 +1,7 @@
 id: '40a2e135-00d6-4882-817b-d6a813df52ae'
-name: 'order_items'
+name: 'FACT_order_items'
 description: 'Generated Model Object from order_items'
+isDeactivated: false
 modelObjectTypeId: 'f0fbefdb-99d0-452b-b4f1-029884bfc482'
 terms:
   - id: '5293b4fc-c5e7-4d7b-9c72-06ef12963cfa'

@@ -1,0 +1,472 @@
+id: 'bf635de2-b001-4e76-96d4-bc30e135f12d'
+name: 'Disc_AW_Sales'
+appVersion: '1.4.0'
+timestamp: '2025-05-13T12:49:58+00:00'
+sourceObjects:
+  - name: 'CountryRegionCurrency'
+    description: 'Cross-reference table mapping ISO currency codes to a country or region.'
+    terms:
+      - name: 'CountryRegionCode'
+        description: 'ISO code for countries and regions. Foreign key to CountryRegion.CountryRegionCode.'
+        isBusinessKey: true
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+          length: 3
+        sourceDataType:
+          name: 'nvarchar'
+          isNullable: false
+          length: 3
+      - name: 'CurrencyCode'
+        description: 'ISO standard currency code. Foreign key to Currency.CurrencyCode.'
+        isBusinessKey: true
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+          length: 3
+        sourceDataType:
+          name: 'nchar'
+          isNullable: false
+          length: 3
+      - name: 'ModifiedDate'
+        description: 'Date and time the record was last updated.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'datetime'
+          isNullable: false
+    objectType: {}
+  - name: 'CreditCard'
+    description: 'Customer credit card information.'
+    terms:
+      - name: 'CreditCardID'
+        description: 'Primary key for CreditCard records.'
+        isBusinessKey: true
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+          precision: 10
+          scale: 0
+        sourceDataType:
+          name: 'int'
+          isNullable: false
+          precision: 10
+          scale: 0
+      - name: 'CardType'
+        description: 'Credit card name.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+          length: 50
+        sourceDataType:
+          name: 'nvarchar'
+          isNullable: false
+          length: 50
+      - name: 'CardNumber'
+        description: 'Credit card number.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+          length: 25
+        sourceDataType:
+          name: 'nvarchar'
+          isNullable: false
+          length: 25
+      - name: 'ExpMonth'
+        description: 'Credit card expiration month.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'byte'
+          precision: 3
+          scale: 0
+        sourceDataType:
+          name: 'tinyint'
+          isNullable: false
+          precision: 3
+          scale: 0
+      - name: 'ExpYear'
+        description: 'Credit card expiration year.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'short'
+          precision: 5
+          scale: 0
+        sourceDataType:
+          name: 'smallint'
+          isNullable: false
+          precision: 5
+          scale: 0
+      - name: 'ModifiedDate'
+        description: 'Date and time the record was last updated.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'datetime'
+          isNullable: false
+    objectType: {}
+  - name: 'Currency'
+    description: 'Lookup table containing standard ISO currencies.'
+    terms:
+      - name: 'CurrencyCode'
+        description: 'The ISO code for the Currency.'
+        isBusinessKey: true
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+          length: 3
+        sourceDataType:
+          name: 'nchar'
+          isNullable: false
+          length: 3
+      - name: 'Name'
+        description: 'Currency name.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+          length: 50
+        sourceDataType:
+          name: 'nvarchar'
+          isNullable: false
+          length: 50
+      - name: 'ModifiedDate'
+        description: 'Date and time the record was last updated.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'datetime'
+          isNullable: false
+    objectType: {}
+  - name: 'CurrencyRate'
+    description: 'Currency exchange rates.'
+    terms:
+      - name: 'CurrencyRateID'
+        description: 'Primary key for CurrencyRate records.'
+        isBusinessKey: true
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+          precision: 10
+          scale: 0
+        sourceDataType:
+          name: 'int'
+          isNullable: false
+          precision: 10
+          scale: 0
+      - name: 'CurrencyRateDate'
+        description: 'Date and time the exchange rate was obtained.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'datetime'
+          isNullable: false
+      - name: 'FromCurrencyCode'
+        description: 'Exchange rate was converted from this currency code.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+          length: 3
+        sourceDataType:
+          name: 'nchar'
+          isNullable: false
+          length: 3
+      - name: 'ToCurrencyCode'
+        description: 'Exchange rate was converted to this currency code.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+          length: 3
+        sourceDataType:
+          name: 'nchar'
+          isNullable: false
+          length: 3
+      - name: 'AverageRate'
+        description: 'Average exchange rate for the day.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 19
+          scale: 4
+        sourceDataType:
+          name: 'money'
+          isNullable: false
+          precision: 19
+          scale: 4
+      - name: 'EndOfDayRate'
+        description: 'Final exchange rate for the day.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 19
+          scale: 4
+        sourceDataType:
+          name: 'money'
+          isNullable: false
+          precision: 19
+          scale: 4
+      - name: 'ModifiedDate'
+        description: 'Date and time the record was last updated.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'datetime'
+          isNullable: false
+    objectType: {}
+  - name: 'PersonCreditCard'
+    description: 'Cross-reference table mapping people to their credit card information in the CreditCard table. '
+    terms:
+      - name: 'BusinessEntityID'
+        description: 'Business entity identification number. Foreign key to Person.BusinessEntityID.'
+        isBusinessKey: true
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+          precision: 10
+          scale: 0
+        sourceDataType:
+          name: 'int'
+          isNullable: false
+          precision: 10
+          scale: 0
+      - name: 'CreditCardID'
+        description: 'Credit card identification number. Foreign key to CreditCard.CreditCardID.'
+        isBusinessKey: true
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+          precision: 10
+          scale: 0
+        sourceDataType:
+          name: 'int'
+          isNullable: false
+          precision: 10
+          scale: 0
+      - name: 'ModifiedDate'
+        description: 'Date and time the record was last updated.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'datetime'
+          isNullable: false
+    objectType: {}
+  - name: 'SalesReason'
+    description: 'Lookup table of customer purchase reasons.'
+    terms:
+      - name: 'SalesReasonID'
+        description: 'Primary key for SalesReason records.'
+        isBusinessKey: true
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+          precision: 10
+          scale: 0
+        sourceDataType:
+          name: 'int'
+          isNullable: false
+          precision: 10
+          scale: 0
+      - name: 'Name'
+        description: 'Sales reason description.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+          length: 50
+        sourceDataType:
+          name: 'nvarchar'
+          isNullable: false
+          length: 50
+      - name: 'ReasonType'
+        description: 'Category the sales reason belongs to.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+          length: 50
+        sourceDataType:
+          name: 'nvarchar'
+          isNullable: false
+          length: 50
+      - name: 'ModifiedDate'
+        description: 'Date and time the record was last updated.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'datetime'
+          isNullable: false
+    objectType: {}
+  - name: 'SalesTaxRate'
+    description: 'Tax rate lookup table.'
+    terms:
+      - name: 'SalesTaxRateID'
+        description: 'Primary key for SalesTaxRate records.'
+        isBusinessKey: true
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+          precision: 10
+          scale: 0
+        sourceDataType:
+          name: 'int'
+          isNullable: false
+          precision: 10
+          scale: 0
+      - name: 'StateProvinceID'
+        description: 'State, province, or country/region the sales tax applies to.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+          precision: 10
+          scale: 0
+        sourceDataType:
+          name: 'int'
+          isNullable: false
+          precision: 10
+          scale: 0
+      - name: 'TaxType'
+        description: '1 = Tax applied to retail transactions, 2 = Tax applied to wholesale transactions, 3 = Tax applied to all sales (retail and wholesale) transactions.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'byte'
+          precision: 3
+          scale: 0
+        sourceDataType:
+          name: 'tinyint'
+          isNullable: false
+          precision: 3
+          scale: 0
+      - name: 'TaxRate'
+        description: 'Tax rate amount.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 19
+          scale: 4
+        sourceDataType:
+          name: 'smallmoney'
+          isNullable: false
+          precision: 10
+          scale: 4
+      - name: 'Name'
+        description: 'Tax rate description.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+          length: 50
+        sourceDataType:
+          name: 'nvarchar'
+          isNullable: false
+          length: 50
+      - name: 'rowguid'
+        description: 'ROWGUIDCOL number uniquely identifying the record. Used to support a merge replication sample.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'uniqueidentifier'
+          isNullable: false
+      - name: 'ModifiedDate'
+        description: 'Date and time the record was last updated.'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'datetime'
+          isNullable: false
+    objectType: {}
+sourceSystem:
+  type: 'Microsoft SQL Server'

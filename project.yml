@@ -11,3 +11,7 @@ sourceSystems:
     description: ''
     activeDiscovery: 'c1814ad7-8e60-4bc3-9cd2-4946de5ceab3'
     sourceSystemTypeId: '301305db-47c8-4d20-b2b2-5dbefbaf251d'
+  - id: '1e8fd400-98ac-446a-beea-d48e162e3426'
+    name: 'aSA'
+    description: ''
+    sourceSystemTypeId: '301305db-47c8-4d20-b2b2-5dbefbaf251d'
